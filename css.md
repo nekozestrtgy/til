@@ -76,3 +76,11 @@ transition: background-color 2s ease-out 0.5s;
 > ease-out（ゆっくり終わる）
 > ease-in-out（ゆっくり始まってゆっくり終わる）
 > といったキーワード指定の他、cubic-bezier(数値, 数値, 数値, 数値)による数値指定も可能です。
+
+## object-fit
+```css
+object-fit: cover;
+width: 213px;
+height: 213px;
+```
+これで、どんな大きさの画像でも短い辺を合わせるかたちで、213pxの正方形に画像の中央でトリミングして表示してくれる
