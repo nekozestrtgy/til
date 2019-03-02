@@ -43,3 +43,27 @@ http://creator.aainc.co.jp/archives/4721
   content: "";
 }
 ```
+## overflow: hidden;
+> `overflow`プロパティは、ボックスの範囲内に内容が収まらない場合に、はみ出た部分の表示の仕方を指定する際に使用します。
+http://www.htmq.com/css/overflow.shtml
+> `hidden` 内容がボックスに収まらない場合、収まらない部分は非表示となる。内容が収まらない場合にも、スクロールバーなどは表示されない
+
+## translateプロパティ
+> http://www.htmq.com/css3/transform_translate.shtml
+
+```
+transform: translate(-50%, 0);
+```
+x軸報告に-50%、y軸方向に0移動
+正の時は、x軸のプラス方向(つまり→)に、y軸のマイナス方向(つまり↓)に移動する。
+
+## word-break: break-word;
+単語単位で折り返してくれる。
+
+## white-space: normal;
+ソース中のホワイトスペースを無視
+ソース中の改行を1つの半角スペースとして表示
+ボックスサイズが指定されている場合にはそれに合わせて自動改行する（初期値）
+
+
+
