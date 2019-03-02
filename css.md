@@ -62,3 +62,17 @@ x軸報告に-50%、y軸方向に0移動
 ボックスサイズが指定されている場合にはそれに合わせて自動改行する（初期値）
 
 ## background: linear-gradient(to right, rgba(255,255,255,0), #fff 72%);
+
+## transition
+cssだけでアニメーションがつけられる。https://www.halawata.net/2011/10/css3-transition/
+```
+transition: background-color 2s ease-out 0.5s;
+```
+変化させるプロパティ、変化にかける時間、イージング、遅延させる時間の順で指定
+> 「イージング」は
+> ease（開始と終了が滑らか、初期値）
+> linear（一定）
+> ease-in（ゆっくり始まる）
+> ease-out（ゆっくり終わる）
+> ease-in-out（ゆっくり始まってゆっくり終わる）
+> といったキーワード指定の他、cubic-bezier(数値, 数値, 数値, 数値)による数値指定も可能です。
