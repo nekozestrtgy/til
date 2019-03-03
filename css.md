@@ -106,4 +106,4 @@ https://coliss.com/articles/build-websites/operation/css/css-using-negative-marg
 pやhを含むブロック要素に対して当てる
 
 ## text-overflow
-親要素
+親要素にはいりきらない
