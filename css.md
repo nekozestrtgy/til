@@ -100,3 +100,10 @@ https://lopan.jp/css-animation-slideshow/
 
 ## ネガティブマージンなるものがあるらしい
 https://coliss.com/articles/build-websites/operation/css/css-using-negative-margins.html
+
+## text-align 
+> 適用対象 ブロックコンテナ
+pやhを含むブロック要素に対して当てる
+
+## text-overflow
+親要素
