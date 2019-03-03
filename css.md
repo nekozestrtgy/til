@@ -84,3 +84,19 @@ width: 213px;
 height: 213px;
 ```
 これで、どんな大きさの画像でも短い辺を合わせるかたちで、213pxの正方形に画像の中央でトリミングして表示してくれる
+
+## text-shadow
+> text-shadowプロパティでは、スペース区切りで<水平方向の距離> <垂直方向の距離> <影のぼかし半径> <影の色>を指定することができます。 長さの値には、pxやemやexなどの単位が利用できます。
+
+```css
+text-shadow: 5px 5px 2px blue;
+```
+右5px下5px移動した先に半径2pxの青い影がつく
+https://www.yoheim.net/blog.php?q=20121103
+
+## animation
+javascript使わなくてもスライド的なデザインをcssで実装できるっぽい
+https://lopan.jp/css-animation-slideshow/
+
+## ネガティブマージンなるものがあるらしい
+https://coliss.com/articles/build-websites/operation/css/css-using-negative-margins.html
