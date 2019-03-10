@@ -10,3 +10,8 @@ db/migrateディレクトリの中にあるスクリプトファイルに基づ�
 
 ## rake db:seed
 dbディレクトリ内にあるseed.rbファイルを実行してデータベースにデータを格納する。
+
+
+## 外部キーとは
+アソシエーションを組む際に使用。他テーブルとの関係を示す。
+https://master.tech-camp.in/curriculums/1088
