@@ -17,3 +17,8 @@ asはローカルの変数を代入する変数とは別名で使用する際に
 
 ## ローカルでrailsコマンド動かない時は、、、
 gemfileの先頭と、.ruby-versionのバージョンを揃えて2.5.1にすると解決。
+
+
+## bundle exec有りと無しの違い
+有りの場合、そのRailsプロジェクトのGemfileで指定された環境で実行する事ができる
+https://qiita.com/windhorn/items/0f58866291f8273f18fb
