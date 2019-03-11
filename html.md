@@ -12,3 +12,5 @@
 ```
 `Payjp.setPublicKey`は外部リソース`https://js.pay.jp/`に記述されているメソッド。読み込みファイル内で定義されていなくても、使用することができる。
 
+## input
+`type属性`省略時は、`type = text`となる。
