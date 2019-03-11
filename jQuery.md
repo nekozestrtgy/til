@@ -17,4 +17,18 @@ https://qiita.com/kbyay_/items/7a7ce9547f29b34a63b1
 引数で指定したコンテンツ(文字列やhtml、jQuery)を要素に追加する。
 http://semooh.jp/jquery/api/manipulation/append/content/
 
-
+## val()
+指定した要素のvalue属性の値を取得・変更・設定する。
+valueは、その要素の初期値を設定する。
+https://www.sejuku.net/blog/45297
+```html
+<button id="btn-a" value="a">ボタンA</button>
+```
+```
+var btn = $('#btn-a').val(); 
+console.log( btn );
+```
+結果
+```
+a
+```
