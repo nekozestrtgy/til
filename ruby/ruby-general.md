@@ -1,4 +1,5 @@
 ## render
+部分テンプレート(_abcd.html.hamlとか)を読み込む時に使用する。
 https://qiita.com/shizuma/items/1c655dadd2e04b3990a8
 
 ```
@@ -28,3 +29,15 @@ https://qiita.com/windhorn/items/0f58866291f8273f18fb
 
 [![Image from Gyazo](https://i.gyazo.com/35f16210aaa87cb000988a324e998f50.png)](https://gyazo.com/35f16210aaa87cb000988a324e998f50)
 
+## require
+gemを外部ファイルを読み込む時に使用。
+> bundlerはデフォルトで、Gem自身の名前を持つファイルをrequireするようになっている。  
+そうじゃない使用のgemは、使いたいファイルの頭にrequireをつける必要がある。
+```
+require 'gemの名前'
+```
+```
+require '相対パス（./abc.scssとか）'
+```
+https://teratail.com/questions/109039
+https://www.sejuku.net/blog/16111
