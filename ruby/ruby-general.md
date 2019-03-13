@@ -25,5 +25,6 @@ https://qiita.com/windhorn/items/0f58866291f8273f18fb
 
 ## スコープ演算子
 :: メソッドを使用する環境（=名前空間）を指定することができる。
+
 [![Image from Gyazo](https://i.gyazo.com/35f16210aaa87cb000988a324e998f50.png)](https://gyazo.com/35f16210aaa87cb000988a324e998f50)
 
