@@ -41,3 +41,8 @@ require '相対パス（./abc.scssとか）'
 ```
 https://teratail.com/questions/109039
 https://www.sejuku.net/blog/16111
+
+## bundler
+gemのバージョン管理やインストールを行うgem
+https://qiita.com/hisonl/items/162f70e612e8e96dba50
+
