@@ -1,3 +1,31 @@
+## そもそもjqueryとは
+javascriptのプラグイン。javascriptより簡単な記述が可能。
+```
+document.getElementById("test").innerHTML = "hello world!";
+```
+```
+$("#test").text("hello world!");
+``` 
+上記２つは同じ内容。
+http://www.jquerystudy.info/tutorial/intro/merit.html
+
+
+## jqueryを使うには
+基本的にはheadタグ内に以下のような記述が必要。
+```
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+```
+http://www.jquerystudy.info/tutorial/intro/merit.html
+
+railsであれば、`jquery-rails`というgemを入れ、`application.js`に`//= require jquery`
+`//= require jquery_ujs`を記入することで使用することができる。
+`application.html.erb`も確認。以下の記述がなければ追記。これを実行することでスクリプトファイルを読み込むためのスクリプトタグを自動的に生成してくれます。
+```
+<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+```
+
+https://qiita.com/ngron/items/95846bd630a723e00038
+
 ## find()
 対象要素の子孫要素から、指定の要素を取得するメソッド。
 子要素に限らず、孫要素、そのまた子要素など、対象要素の下の書いそうであればどこの階層からも検索が可能。
