@@ -32,3 +32,11 @@ console.log( btn );
 ```
 a
 ```
+## get()
+引数にインデックスを取り、ひとつのDOMエレメントを参照する。
+[![Image from Gyazo](https://i.gyazo.com/7711ddabcde386717266ecc3390b09e2.gif)](https://gyazo.com/7711ddabcde386717266ecc3390b09e2)
+http://semooh.jp/jquery/api/core/get/index/
+
+## submit()
+submitの実行。もしくは関連付け。
+http://js.studio-kingdom.com/jquery/events/submit#2
