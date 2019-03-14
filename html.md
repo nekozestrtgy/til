@@ -16,4 +16,6 @@
 `type属性`省略時は、`type = text`となる。
 `type="hidden`を指定すると、 ブラウザ上に表示されない非表示データを送信することができる。valueで、送信する値を設定。
 
-
+## select
+セレクトボックスを作成するタグ。選択肢は`option`タグで指定。
+http://www.htmq.com/html/select.shtml
