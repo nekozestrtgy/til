@@ -17,8 +17,8 @@ http://www.jquerystudy.info/tutorial/intro/merit.html
 ```
 http://www.jquerystudy.info/tutorial/intro/merit.html
 
-railsであれば、`jquery-rails`というgemを入れ、`application.js`に`//= require jquery`
-`//= require jquery_ujs`を記入することで使用することができる。
+railsであれば、`jquery-rails`というgemを入れ、`application.js`に`//= require jquery`を記入することで使用することができる。ファイルの読み込みは
+を記入することで使用することができる。
 `application.html.erb`も確認。以下の記述がなければ追記。これを実行することでスクリプトファイルを読み込むためのスクリプトタグを自動的に生成してくれます。
 ```
 <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
