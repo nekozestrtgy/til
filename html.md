@@ -22,3 +22,4 @@ http://www.htmq.com/html/select.shtml
 
 ## render
 :paritalを使う時は、:localも使う。どっちかしか指定しない場合には、エラーになる。
+https://qiita.com/mm36/items/2d89aa3b77e740e671c2
