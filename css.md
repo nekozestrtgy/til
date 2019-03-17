@@ -62,6 +62,10 @@ x軸報告に-50%、y軸方向に0移動
 ボックスサイズが指定されている場合にはそれに合わせて自動改行する（初期値）
 
 ## background: linear-gradient(to right, rgba(255,255,255,0), #fff 72%);
+線形グラデーションを指定する際に使用。
+```css
+linear-gradient(グラデーションの角度または方向, 開始色, 途中色, 終了色);
+```
 
 ## transition
 cssだけでアニメーションがつけられる。https://www.halawata.net/2011/10/css3-transition/
