@@ -5,3 +5,5 @@ Document Object Model。ドキュメントをモノとして扱うモデル。
 [![Image from Gyazo](https://i.gyazo.com/2a2080d819c04035847bfe36016138dc.png)](https://gyazo.com/2a2080d819c04035847bfe36016138dc)
 [![Image from Gyazo](https://i.gyazo.com/1430b17dca40b17d32f9175b55fceb38.png)](https://gyazo.com/1430b17dca40b17d32f9175b55fceb38)
 
+
+https://eng-entrance.com/what-is-dom
