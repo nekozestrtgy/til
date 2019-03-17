@@ -19,3 +19,6 @@
 ## select
 セレクトボックスを作成するタグ。選択肢は`option`タグで指定。
 http://www.htmq.com/html/select.shtml
+
+## render
+:paritalを使う時は、:localも使う。どっちかしか指定しない場合には、エラーになる。
