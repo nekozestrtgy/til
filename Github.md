@@ -20,3 +20,5 @@ git reset --soft HEAD^
 ```
 git push -f origin (ブランチ名)
 ```
+
+https://qiita.com/shuntaro_tamura/items/06281261d893acf049ed
