@@ -48,3 +48,6 @@ https://qiita.com/hisonl/items/162f70e612e8e96dba50
 
 ## params
 inputのnameを元に
+
+## コントローラーの作成
+`rails generate controller コントローラ名`
