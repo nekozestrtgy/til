@@ -29,4 +29,14 @@ databaseを一度削除してもう一度作成し、db:migrate実行。
 
 https://easyramble.com/difference-bettween-rake-db-migrate-reset.html
 
+## カラムを追加するときは
+```
+rails g migration Addカラム名Toテーブル名 カラム名:データ型
+rails generate migration AddPriceToProducts price:integer
+```
 
+## カラムを削除するときは
+```
+rails g migration Removeカラム名Fromテーブル名 カラム名:データ型
+rails generate migration RemovePriceToProducts price:integer
+```
