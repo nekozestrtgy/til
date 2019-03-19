@@ -22,6 +22,7 @@ soarer.accele
 soarer = Soarer.new
 soarer.accele
 ```
+実行結果
 ```:実行結果
 アクセルを踏みました
 加速しました
