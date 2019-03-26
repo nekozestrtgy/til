@@ -1,3 +1,12 @@
+## フォントの設定
+cssの書き方
+英語、日本語の順番で指定。
+https://saruwakakun.com/html-css/basic/font-family-how-to
+
+googlefont  
+サイトでスクリプト作って、cssに書く
+https://saruwakakun.com/html-css/basic/google-fonts
+
 ## aタグの装飾
 ```
 text-decoration: none;
