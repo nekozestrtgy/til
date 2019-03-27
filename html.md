@@ -23,3 +23,12 @@ http://www.htmq.com/html/select.shtml
 ## render
 :paritalを使う時は、:localも使う。どっちかしか指定しない場合には、エラーになる。
 https://qiita.com/mm36/items/2d89aa3b77e740e671c2
+
+```
+render partial: "相対パス", locals: {renders先の変数名: 値 }
+```
+```products_controller.rb
+render partial: "middle_category", locals: {division: params[:middle_category]}
+```
+`products/_middle_category.html.haml`を`render`している。また、`params[:middle_category]`を`division`という名前の変数で渡している。
+
