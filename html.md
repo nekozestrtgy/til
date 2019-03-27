@@ -32,3 +32,14 @@ render partial: "middle_category", locals: {division: params[:middle_category]}
 ```
 `products/_middle_category.html.haml`を`render`している。また、`params[:middle_category]`を`division`という名前の変数で渡している。
 
+変数を繰り返して使用する際は、`collection`を使用すると便利。
+```
+= render partial: "テンプレート名", collection: (繰り返し表示させるインスタンス)
+```
+```article/index.html.haml
+= render partial: "article", collection: @articles
+```
+```article/_article.html.haml
+%p
+  articleのタイトルは、#{article.title}です
+```
