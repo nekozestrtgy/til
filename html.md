@@ -39,7 +39,7 @@ render partial: "middle_category", locals: {division: params[:middle_category]}
 ```article/index.html.haml
 = render partial: "article", collection: @articles
 ```
-```article/_article.html.haml
+```:article/_article.html.haml
 %p
   articleのタイトルは、#{article.title}です
 ```
