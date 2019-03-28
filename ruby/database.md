@@ -41,3 +41,9 @@ rails g migration Removeカラム名Fromテーブル名 カラム名:データ�
 rails generate migration RemovePriceToProducts price:integer
 ```
 https://qiita.com/azusanakano/items/a2847e4e582b9a627e3a
+
+## カラム名の変更
+```
+rails g migration Rename変更するカラム名Inテーブル名
+```
+https://qiita.com/kaito-chiba/items/723da8627438b67cc02c
