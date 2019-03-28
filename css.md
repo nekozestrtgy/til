@@ -75,6 +75,30 @@ x軸報告に-50%、y軸方向に0移動
 ```css
 linear-gradient(グラデーションの角度または方向, 開始色, 途中色, 終了色);
 ```
+## animation
+javascript使わなくてもスライド的なデザインをcssで実装できるっぽい
+https://lopan.jp/css-animation-slideshow/
+
+animationは一方向の変化のみ。
+transitionは双方向の変化が可能。
+```css
+.sample {
+  animation: name,duration,timingfunction,delay,iterationcount,direction;
+}
+```
+
+```css
+div.sample {
+  animation: anime1 5s ease -2s infinite alternate;
+}
+
+@keyframes anime1 {
+0% {width: 50px; height: 50px; background-color: aqua;}
+100% {width: 200px; height: 50px; background-color: blue;}
+}
+```
+
+http://www.htmq.com/css3/animation.shtml
 
 ## transition
 cssだけでアニメーションがつけられる。https://www.halawata.net/2011/10/css3-transition/
@@ -106,10 +130,6 @@ text-shadow: 5px 5px 2px blue;
 ```
 右5px下5px移動した先に半径2pxの青い影がつく
 https://www.yoheim.net/blog.php?q=20121103
-
-## animation
-javascript使わなくてもスライド的なデザインをcssで実装できるっぽい
-https://lopan.jp/css-animation-slideshow/
 
 ## ネガティブマージンなるものがあるらしい
 https://coliss.com/articles/build-websites/operation/css/css-using-negative-margins.html
