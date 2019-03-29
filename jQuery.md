@@ -68,3 +68,40 @@ http://semooh.jp/jquery/api/core/get/index/
 ## submit()
 submitの実行。もしくは関連付け。
 http://js.studio-kingdom.com/jquery/events/submit#2
+
+## if()
+```
+if(条件式) {
+  処理
+} else if(条件式) {
+  処理
+} else {
+  処理
+}
+```
+```
+$(function() {
+ 
+  // 年齢を変数に格納
+  var age = 65;
+ 
+  // if文で条件を比較
+  // 年齢が20歳未満だったら
+  if (age < 20) {
+ 
+    // コンソールに未成年と表示
+    console.log('未成年です。');
+ 
+   // 年齢が65歳以上だったら
+  } else if (age >= 65) {
+ // コンソールにシニアと表示
+    console.log('シニアです。');
+  // 年齢がそれ以外だったら
+  } else {
+    // コンソールに成人と表示
+    console.log('成人です。');
+  }
+});
+
+```
+https://www.flatflag.nir87.com/if-2-1102
