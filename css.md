@@ -154,3 +154,7 @@ http://e-words.jp/w/フォーカス.html
 
 ## ウィンドウ幅に対応した中央配置
 ブロック要素の中にブロック要素を使い、中にだけwidthを設定すれば良い。
+
+## 斜め
+`transform: rotate`で実装する
+https://qiita.com/sho012b/items/3478ca65fe5b6de0450a
