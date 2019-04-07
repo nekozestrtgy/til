@@ -105,3 +105,7 @@ $(function() {
 
 ```
 https://www.flatflag.nir87.com/if-2-1102
+
+## セレクタの指定方法
+http://www.hp-stylelink.com/news/2013/11/20131122.php
+ある親要素内の子要素を指定するときは、`$('親要素 子要素')`で指定。
