@@ -38,7 +38,7 @@ rails generate migration AddPriceToProducts price:integer
 ## カラムを削除するときは
 ```
 rails g migration Removeカラム名Fromテーブル名 カラム名:データ型
-rails generate migration RemovePriceToProducts price:integer
+rails generate migration RemovePriceFromProducts price:integer
 ```
 https://qiita.com/azusanakano/items/a2847e4e582b9a627e3a
 
