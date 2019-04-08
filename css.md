@@ -158,3 +158,6 @@ http://e-words.jp/w/フォーカス.html
 ## 斜め
 `transform: rotate`で実装する
 https://qiita.com/sho012b/items/3478ca65fe5b6de0450a
+
+## display: flex;
+https://mamewaza.com/support/blog/howto-use-flex.html
