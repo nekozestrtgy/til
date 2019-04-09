@@ -122,4 +122,10 @@ https://www.sejuku.net/blog/40700
 ## .parent()
 親要素を取得
 
-
+## event.target
+```
+$(document).click(function(event){
+	var target = $(event.target);
+ }
+```
+これで`target`にクリックした要素を入れることができる
