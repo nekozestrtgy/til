@@ -38,6 +38,11 @@ https://qiita.com/kbyay_/items/7a7ce9547f29b34a63b1
 `prop()`は、指定した属性の値の取得・変更や、`disable`や`checked`などのプロパティの真偽を取得してくれる。
 `attr()`は、指定した属性の値の取得・変更や、`disable`や`checked`などのプロパティそれ自体を取得してくれる。
 
+```
+.attr('class')
+→クラス属性の値を取得
+```
+
 ## removeAttr()
 属性を削除する。指定した値のみではなく、属性そのものを削除する。
  
@@ -113,3 +118,8 @@ http://www.hp-stylelink.com/news/2013/11/20131122.php
 ## text()
 テキスト要素の取得・変更でしよう。
 https://www.sejuku.net/blog/40700
+
+## .parent()
+親要素を取得
+
+
