@@ -161,3 +161,11 @@ https://qiita.com/sho012b/items/3478ca65fe5b6de0450a
 
 ## display: flex;
 https://mamewaza.com/support/blog/howto-use-flex.html
+
+## border
+```
+border: (太さ=~px) (スタイル)　(色);
+```
+```
+border: 5px solid white;
+```
