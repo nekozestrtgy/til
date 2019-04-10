@@ -169,3 +169,7 @@ border: (太さ=~px) (スタイル)　(色);
 ```
 border: 5px solid white;
 ```
+
+## text-decoration
+でアンダーラインなどを指定した後は、`text-decoration-style`でスタイルを、`text-decoration-color`で色を指定できる。
+http://www.htmq.com/css/text-decoration.shtml
