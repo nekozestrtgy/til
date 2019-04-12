@@ -170,6 +170,8 @@ border: (太さ=~px) (スタイル)　(色);
 border: 5px solid white;
 ```
 
+`border-top-right-radius`で、四つ角を指定して丸めることができる
+
 ## text-decoration
 でアンダーラインなどを指定した後は、`text-decoration-style`でスタイルを、`text-decoration-color`で色を指定できる。
 http://www.htmq.com/css/text-decoration.shtml
