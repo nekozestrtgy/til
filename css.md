@@ -184,5 +184,4 @@ transform: translateX(-50%);
 ```
 親要素の左端から、親要素の横幅半分右に移動し、transformで、当該要素の横幅分左側に移動することで、左右中央の位置に配置される。
 
-
-```
+https://cotodama.co/position-absolute-center/
