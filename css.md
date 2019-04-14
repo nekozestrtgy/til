@@ -188,3 +188,10 @@ https://cotodama.co/position-absolute-center/
 
 ## 主要SNSのカラー
 http://akiyum.com/webdesign_tips/sns-brandcolor.html
+
+## liの黒丸を消す
+```
+ul {
+  list-style: none;
+}
+```
