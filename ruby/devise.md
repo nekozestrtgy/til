@@ -1,3 +1,7 @@
+## 全体的な使い方
+rails 5版
+https://qiita.com/cigalecigales/items/f4274088f20832252374
+
 ## コントローラーを編集したいときは
 ```
 rails g devise:controllers users
