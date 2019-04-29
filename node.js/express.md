@@ -42,3 +42,5 @@ https://qiita.com/moomooya/items/00f89e425a3034b8ea14
 が、railsで言うroute.rb的な要素を担っているっぽい。
 `var indexRouter = require('./routes/index');` でパスを変数に定義して、
 `app.use('/', indexRouter);`でルーティング、的な。
+実際の処理内容は、`routes`以下の書くファイルに記述する感じ。`routes`がrailsでいうcontroller。
+上記の場合は、`index.js`に処理の記述がある。
