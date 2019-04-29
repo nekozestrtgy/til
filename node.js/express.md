@@ -39,6 +39,8 @@ appレベルは、どのルーティングでも適用するmiddleware。app.use
 routerレベルは、特定のルーティングで適用するmiddlewar。router.get(〜などになる。
 https://expressjs.com/ja/guide/using-middleware.html
 
+routerレベルもappレベルもできることはそんなに変わらないが、routerレベルのmiddlewareは最終的にappレベルにマウントする必要があるっぽい。
+
 
 ## express-generator
 routesが、railsで言うcontrollerのような役割。どのパスでどんな処理を行うのか記述。
