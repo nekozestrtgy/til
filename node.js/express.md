@@ -36,3 +36,9 @@ app.get("/api/photo/list", function(req, res, next) {
 ## express-generator
 routesが、railsで言うcontrollerのような役割。どのパスでどんな処理を行うのか記述。
 https://qiita.com/moomooya/items/00f89e425a3034b8ea14
+
+
+## app.js
+が、railsで言うroute.rb的な要素を担っているっぽい。
+`var indexRouter = require('./routes/index');` でパスを変数に定義して、
+`app.use('/', indexRouter);`でルーティング、的な。
