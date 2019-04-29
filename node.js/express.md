@@ -33,6 +33,11 @@ app.get("/api/photo/list", function(req, res, next) {
 ```
 この例では、写真リストを提供するAPIを記述している。 `/api/photo/list` にアクセスした際、写真のサンプルデータすべてをJSON形式で返す仕様になっています。
 
+## middleware
+には、大きくappレベルとrouteレベルがある。
+appレベルは、どのルーティングでも適用するmiddleware。app.use(〜となる。
+routeレベルは、特定のルーティングで適用するmiddlewar。route.get(〜などになる。
+
 ## express-generator
 routesが、railsで言うcontrollerのような役割。どのパスでどんな処理を行うのか記述。
 https://qiita.com/moomooya/items/00f89e425a3034b8ea14
