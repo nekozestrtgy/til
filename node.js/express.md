@@ -36,7 +36,9 @@ app.get("/api/photo/list", function(req, res, next) {
 ## middleware
 には、大きくappレベルとrouteレベルがある。
 appレベルは、どのルーティングでも適用するmiddleware。app.use(〜となる。
-routeレベルは、特定のルーティングで適用するmiddlewar。route.get(〜などになる。
+routerレベルは、特定のルーティングで適用するmiddlewar。router.get(〜などになる。
+https://expressjs.com/ja/guide/using-middleware.html
+
 
 ## express-generator
 routesが、railsで言うcontrollerのような役割。どのパスでどんな処理を行うのか記述。
