@@ -130,6 +130,12 @@ for ((変数の初期化);(条件);(変数の更新)) {
 ```
 最後の`変数の更新`の後ろには、`;`をつけない。
 
-```
-```
 `continue`特定の場合のみ処理をスキップ、'break'は強制終了
+
+### 配列
+```
+int[] numbers = {1,2,3};
+String[] names = {"john","ken","mika"};
+println(names[0]); //→john
+println(names.length); //→3
+```
