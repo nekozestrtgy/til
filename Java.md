@@ -6,6 +6,7 @@ printlnは、プリントライン
 ### データ型
 String 文字(Sは大文字)
 int 数字(iは小文字)
+double 小数
 
 ### 変数の定義
 
@@ -19,7 +20,7 @@ String name;
 ```
 
 変数の定義と同時に、値を代入することもできる。これを、変数の初期化と言う。
-````
+```
 int number = 3;
 String name = "Hello World";
 ```
@@ -49,7 +50,7 @@ namae ローマ字
 
 
 ### 計算
-````
+```
 int number = 1;
 
 //以下全部同じ意味
@@ -57,3 +58,5 @@ number = number + 1;
 number += 1;
 number++; //足す値が1の時はこう書ける。
 ```
+
+int型
