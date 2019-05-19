@@ -139,3 +139,4 @@ String[] names = {"john","ken","mika"};
 println(names[0]); //→john
 println(names.length); //→3
 ```
+配列用のfor文は以下のように書ける
